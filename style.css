@@ -3,3 +3,37 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    font: arial sans-serif;
+}
+body{
+    /* padding: 1.5rem; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0; 
+    left: 0;
+    background-color: #f0f0f0; 
+    padding: 1rem; 
+}
+/* main */
+/* hero section */
+.hero img{
+    position: relative;
+    margin-top: 4.7rem;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (min-width:786px){
+    
+}
+@media screen and (min-width:1024px){
+
+}
