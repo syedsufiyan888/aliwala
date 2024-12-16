@@ -28,7 +28,7 @@ nav{
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content horizontally */
+    align-items: center; 
     padding: 20px;
     z-index: 0;
 }
@@ -37,7 +37,7 @@ nav{
     width: 100vw;
     height: auto;
     display: block;
-    z-index: 1; /* Ensure image stays behind text and buttons */
+    z-index: 1; 
     overflow-x: hidden;
 }
 
@@ -48,7 +48,7 @@ nav{
     transform: translate(-0%, -50%);
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content horizontally */
+    align-items: center; 
     z-index: 10;
     letter-spacing: 2px;
 
@@ -56,8 +56,8 @@ nav{
 
 .hero-text {
     color: white;
-    font-size: 2rem; /* Adjust as needed */
-    text-align: center; /* Center text */
+    font-size: 2rem; 
+    text-align: center; 
     line-height: 1.2;
     margin-bottom: 20px;
     z-index: 15;
@@ -112,7 +112,6 @@ nav{
 .advantages img{
     width: 3.5rem;
     height: auto;
-    /* padding-left: 1.3rem; */
     
 }
 .advant{
@@ -120,7 +119,6 @@ nav{
     flex-direction: column;
     margin-bottom: 2rem;
     align-items: center;
-    /* line-height: 1rem; */
 }
 .advantages .heading{
     font-size: 1.3rem;
@@ -135,8 +133,6 @@ nav{
     text-align: center;
     color: grey;
 }
-/* Products */
-/* products section */
 .products img{
     width: 100vw;
     height: auto;
@@ -144,11 +140,6 @@ nav{
     padding-right: 6%;
     padding-bottom: 2rem;
 }
-/* .products .heading{
-    position: fixed;
-    top: 0%;
-    left: 50%;
-} */
 .image-container {
     position: relative;
     text-align: center; 
@@ -191,7 +182,7 @@ nav{
 .features .featured-slide{
     display: flex;
     width: 100%;
-    overflow-x: auto; /*mainly reposible for scrolling*/
+    overflow-x: auto; 
     gap: 1.5rem;
 }
 /* deal */
@@ -210,8 +201,6 @@ nav{
     display: flex;
     justify-content: space-between;
     gap: 1.2rem;
-    /* width: 40%; */
-    /* height: auto; */
 }
 .find-out-more .images img{
     width: 50%;
@@ -333,22 +322,8 @@ nav{
     width: 100%;
     height: auto;
     display: blocks;
-    /* position: ; */
-    /* z-index: 500; */
-    /* margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem; */
-    /* position: absolute; */
-    /* float: wrap; */
 }
 .explore-now .text{
-    /* text-align: center; */
-    /* color: white; */
-    /* position: absolute; */
-    /* z-index: 1000; */
-    /* display: block; */
-    /* justify-content: center; */
-    /* align-items: center; */
     position: absolute;
     top: 0;
     left: 0;
@@ -418,8 +393,6 @@ footer .email{
     border: 2px solid rgb(255, 255, 255);
     border-radius: 1.5rem;
     background-color: white;
-    /* align-items: center;
-    width: 90%; */
 }
 footer .email input{
     border: none;
@@ -443,15 +416,10 @@ footer .email button{
     font-weight: 600;
     color: rgb(17, 41, 63);
 }
-/* footer .email button:hover{
-    background-color: rgba(255, 255, 255, 0.842);
-} */
 footer img{
     align-items: center;
-    /* margin-left: 40%; */
     width: 40%;
     height: auto;
-    /* margin-left: 30%; */
     padding-top: 5rem;
     padding-bottom: 1rem;
 }
