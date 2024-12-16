@@ -194,6 +194,290 @@ nav{
     overflow-x: auto; /*mainly reposible for scrolling*/
     gap: 1.5rem;
 }
+/* deal */
+.dod .deal img{
+    width: 90%;
+    height: auto;
+    margin: 1rem;
+}
+/* find out more */
+.find-out-more{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.find-out-more .images{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+    /* width: 40%; */
+    /* height: auto; */
+}
+.find-out-more .images img{
+    width: 50%;
+    height: 60%;
+}
+.find-out-more .images .image2{
+    padding-top:3rem ;
+}
+.find-out-more .aliwala{
+    color: rgb(216, 0, 0);
+    font-size: 1rem;
+    /* font-weight: 450; */
+    text-align: center;
+    margin-top: 1rem;
+}
+.find-out-more .the-stationary-comp{
+    color: rgb(32, 55, 118);
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+}
+.find-out-more .para{
+    /* font-size: 1rem; */
+    font-weight: 500;
+    color: grey;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.find-out-more .findoutmore{
+    border: 2px solid black;
+    padding: 0.2rem;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10% 25%;
+    font-weight: 500;
+    border-radius: 3rem;
+}
+/* testimonials */
+.testimonials{
+    margin: 4rem 0rem 1rem 0rem;
+    text-align: left;
+    position: relative;
+}
+.testimonials .text{
+    margin: 0rem 1.2rem 1rem 1rem;
+}
+.testimonials .text .testimonials-word{
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgb(214, 0, 0);
+}
+.testimonials .text .what-our{
+    font-size: 1.8rem;
+    /* font-weight: 500; */
+    color: rgb(22, 22, 109);
+    line-height: 2.2rem;
+}
+.testimonials .text p{
+    margin-top: 2rem;
+    color: grey;
+    font-size:1.2rem;
+    font-weight:600;
+}
+.testimonials .feedback{
+    padding: 2rem 2rem 4rem 2rem;
+    background-color: rgb(241, 243, 250);
+}
+.testimonials .profile{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    margin-bottom: 0;
+}
+.testimonials .profile img{
+    width: 25%;
+    height: 25%;
+    padding-right: 1rem;
+}
+.testimonials .profile .name{
+    font-weight: 700;
+}
+.testimonials .profile .company{
+    font-weight: 600;
+}
+.testimonials .feedback .from{
+    background-color: white;
+    margin-top: 0;
+    padding: 1rem;
+    font-weight: 600;
+    color: grey;
+}
+.testimonials .double-quotes{
+        position: absolute;
+        right: 5%;
+        top: 45%;
+}
+.testimonials .arrows{
+    margin-top: 1rem;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left:40%;
+    top: 90%;
+}
+.testimonials .feedback-image-2{
+    display: none;
+}
+/* Explore section */
+.explore-now{
+    margin: 2rem 1rem 2rem 1rem;
+    position: relative;
+    overflow: hidden;
+
+}
+.explore-now .bimage img{
+    width: 100%;
+    height: auto;
+    display: blocks;
+    /* position: ; */
+    /* z-index: 500; */
+    /* margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem; */
+    /* position: absolute; */
+    /* float: wrap; */
+}
+.explore-now .text{
+    /* text-align: center; */
+    /* color: white; */
+    /* position: absolute; */
+    /* z-index: 1000; */
+    /* display: block; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center; 
+    text-align: center;
+    color: white;
+}
+.explore-now .text .small-head{
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.explore-now .text .main-head{
+    font-size: 1.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1.3rem;
+}
+.explore-now .text .explore-now-button{
+    color: black;
+    border: 1px solid white;
+    padding: 0.7rem;
+    font-weight: 600;
+    font-size:1.1rem ;
+    background-color: white;
+    margin: 5% 30%;
+    border-radius: 1.5rem;
+}
+/* contact-us section */
+.contact-us{
+    margin: 1rem 1rem 1rem 1rem;
+    text-align: center;
+    position: relative;
+}
+.contact-us p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(32, 68, 134);
+}
+.contact-us .cont-us-btn{
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    color: black;
+    font-weight: 600;
+    border: 2px solid black;
+    margin-left: 28%;
+    margin-right: 28%;
+    border-radius: 1.5rem;
+}
+/* footer */
+footer{
+    padding:1rem 1rem 1rem 1rem ;
+    background-color: rgb(12, 35, 89);
+    color: white;
+    text-align: center;
+}
+footer .subscribe{
+    font-size: 1.7rem;
+    text-align: center;
+}
+footer .email{
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 1.5rem;
+    background-color: white;
+    /* align-items: center;
+    width: 90%; */
+}
+footer .email input{
+    border: none;
+    width: 70%;
+    padding: 0.7rem;
+    margin-right: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    border-radius: 1.5rem;
+}
+footer .email input:focus{
+    border: 2px solid rgb(255, 0, 0);
+}
+footer .email button{
+    font-size: 1.1rem;
+    border: none;
+    margin-left: 0;
+    padding: 0.7rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    color: rgb(17, 41, 63);
+}
+/* footer .email button:hover{
+    background-color: rgba(255, 255, 255, 0.842);
+} */
+footer img{
+    align-items: center;
+    /* margin-left: 40%; */
+    width: 40%;
+    height: auto;
+    /* margin-left: 30%; */
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+footer .we-believe{
+    text-align: center;
+}
+footer .paires{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer .need-help{
+    text-align: center;
+}
+footer .num{
+    font-size: 1.5rem;
+    color: rgb(243, 82, 136);
+}
+footer .copyright{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+footer .designed{
+    padding-bottom: 1rem;
+}
 @media screen and (min-width:786px){
     
 }
