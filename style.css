@@ -6,9 +6,9 @@
 html{
     font-family: "Poppins", serif;
 }
-body{
-    /* padding: 1.5rem; */
-}
+/* body{
+    padding: 1.5rem;
+} */
 nav{
     display: flex;
     justify-content: space-between;
